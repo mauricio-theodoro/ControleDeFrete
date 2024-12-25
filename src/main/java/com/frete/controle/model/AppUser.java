@@ -29,7 +29,6 @@ public class AppUser {
     // Email do usuário, deve ser único
     
     @Column(name = "email", nullable = false, unique = true, length = 100) // Único e obrigatório
-    
     private String email;
 
     // Telefone de contato do usuário
